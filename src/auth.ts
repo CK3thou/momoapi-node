@@ -3,8 +3,7 @@ import moment from "moment";
 
 import { createClient } from "./client";
 
-import { Config, UserConfig } from "./types";
-import { AccessToken } from "./types";
+import { AccessToken, Config, UserConfig } from "./types";
 
 export type TokenRefresher = () => Promise<OAuthCredentials>;
 

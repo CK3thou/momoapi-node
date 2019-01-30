@@ -1,6 +1,8 @@
 const momo = require("../lib/");
 
-const { Collections } = momo({ callbackHost: process.env.CALLBACK_HOST });
+const { Collections } = momo({
+  callbackHost: "your-domain.com"
+});
 
 // initialise collections
 const collections = Collections({
